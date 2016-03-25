@@ -1,7 +1,7 @@
 {
 	"name": "sanatorium/social",
 	"type": "platform-extension",
-	"description": "Social features",
+	"description": "Social features for Cartalyst Platform",
 	"authors": [
 		{
 			"name": "Sanatorium",
