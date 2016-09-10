@@ -67,7 +67,7 @@ return [
 	|
 	*/
 
-	'version' => '3.0.2',
+	'version' => '3.0.3',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -248,7 +248,7 @@ return [
                 foreach( $shareable as $share => $active ) {
 
 	                $f->field($share, function ($f) use ($share) {
-	                    $f->name   = $share;
+	                    $f->name   = ucfirst($share);
 	                    $f->type   = 'radio';
 	                    $f->config = 'sanatorium-social.shareable.' . $share;
 
